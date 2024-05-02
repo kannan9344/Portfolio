@@ -19,7 +19,7 @@
       class="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center bg-[url(assets/images/bg.jpg)]"
     >
       <div
-        class="home-container flex flex-col h-[96vh] w-[95vw] bg-[rgba(255,255,255,0.3)] justify-between rounded-md border-2 border-white"
+        class="home-container flex flex-col mx-auto h-[96vh] w-[95vw] bg-[rgba(255,255,255,0.3)] justify-between rounded-md border-2 border-white"
       >
         <nav class="flex items-center justify-between p-5">
           <div class="logo text-orange-500 text-2xl md:text-3xl font-bold">
@@ -50,12 +50,27 @@
         <!-- Home -->
         <section
           id="Home"
-          class="container w-full h-fit md:h-full px-10 flex items-center gap-y-1 justify-center md:justify-between md:flex-row flex-col-reverse mx-auto"
+          class="container w-full h-full md:h-[600px] px-10 flex items-start gap-y-8 md:gap-y-1 justify-center md:justify-between md:flex-row flex-col mx-auto"
         >
+          
           <div
-            class="col h-52 md:h-full w-full md:w-3/6 flex flex-col md:justify-center gap-2"
+            class="col w-full md:w-3/6 h-52 md:h-full flex justify-center md:justify-start items-start md:items-center"
           >
-            <h3 class="text-[13px] md:text-xl font-bold">I'm</h3>
+            <div
+              class="image w-56 md:w-80 h-56 md:h-80 rounded-full overflow-hidden shadow-md bg-white transition"
+            >
+              <img
+                src="assets/images/user_img.png"
+                alt="user-image"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+          <div
+            class="col h-52 md:h-full w-full md:w-3/6 flex items-center justify-center gap-2"
+          >
+            <div class="flex flex-col gap-2 w-[420px]">
+              <h3 class="text-[13px] md:text-xl font-bold">I'm</h3>
             <h1 class="text-2xl md:text-4xl text-orange-500 font-bold">
               Front End Developer
             </h1>
@@ -101,18 +116,6 @@
                 ><i class="fa-brands fa-whatsapp"></i
               ></a>
             </div>
-          </div>
-          <div
-            class="col w-full md:w-3/6 h-52 md:h-full flex items-center justify-center md:justify-end"
-          >
-            <div
-              class="image w-60 md:w-80 h-60 md:h-80 rounded-full overflow-hidden shadow-md bg-white transition"
-            >
-              <img
-                src="assets/images/user_img.png"
-                alt="user-image"
-                class="w-full h-full object-cover object-top"
-              />
             </div>
           </div>
         </section>
