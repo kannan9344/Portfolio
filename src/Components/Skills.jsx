@@ -24,7 +24,7 @@ const Skills = () => {
   ];
   return (
     <div className="w-full h-full flex  items-center justify-center">
-      <div className="w-11/12 grid grid-cols-2 md:grid-cols-4 justify-center grid-rows-6 md:grid-rows-3 gap-6 overflow-y-scroll">
+      <div className="w-11/12 h-96 md:h-auto grid grid-cols-2 md:grid-cols-4 justify-center grid-rows-mobile-skills md:grid-rows-3 gap-3 md:gap-6 overflow-y-auto">
         {icons.map((icon) => {
           return (
             <div

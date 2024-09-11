@@ -8,7 +8,8 @@ export default {
     extend: {
       gridTemplateRows: {
         // Simple 16 row grid
-        'mobile': 'repeat(6, minmax(150px, 1fr))',
+        'mobile': 'repeat(6, minmax(200px, 1fr))',
+        'mobile-skills': 'repeat(6, minmax(150px, 1fr))',
       }
     },
   },
