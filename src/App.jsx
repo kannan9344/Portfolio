@@ -13,11 +13,11 @@ const App = () => {
     <div className="h-screen w-full flex items-center relative bg-[#F5F3EB] overflow-x-hidden">
       <Sidebar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Skills" element={<Skills />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/Portfolio/About" element={<About />} />
+        <Route path="/Portfolio/Skills" element={<Skills />} />
+        <Route path="/Portfolio/Projects" element={<Projects />} />
+        <Route path="/Portfolio/Contact" element={<Contact />} />
       </Routes>
       <User active={active} setActive={setActive}/>
       <i className="fa-solid fa-bars absolute text-[13px] top-2 right-2 px-3 py-2 rounded text-[#ff006e] md:hidden bg-white" onClick={()=>setActive(!active)} ></i>
